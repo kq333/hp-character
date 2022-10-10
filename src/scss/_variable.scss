@@ -1,0 +1,21 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin button-style($color) {
+    width: 7rem;
+    height: 3rem;
+    gap: 1rem;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.2em;
+    color: $color;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}

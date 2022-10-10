@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="./src/scss/main.css" />
+    <title>Harry Potter characters</title>
+  </head>
+
+  <body>
+    <div class="main-page">
+      <nav class="main-page__nav-btns"></nav>
+      <header class="main-page__header">
+        <h1>Harry Potter Characters</h1>
+      </header>
+
+      <main class="main-page__main">
+        <section class="main-page__table-wrapper">
+
+          <table class="main-page__table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Date of birth</th>
+                <th>House</th>
+                <th>Wizard</th>
+                <th>Ancestry</th>
+                <th>Is student/staff</th>
+              </tr>
+            </thead>
+            <tbody class="main-page__table-data"></tbody>
+          </table>
+        </section>
+        <section class="main-page__modal">
+          <div class="main-page__modal-container">
+            <div class="main-page__modal-content">
+            </div>
+            <div class="main-page__modal-buttons"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./src/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+</html>
